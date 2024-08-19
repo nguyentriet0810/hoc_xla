@@ -1,0 +1,2 @@
+You should choose the real of civilization
+This is Emgu.CV version 3.4.1.29.76
