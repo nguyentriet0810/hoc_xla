@@ -19,8 +19,9 @@ namespace mn_project01
         public Form1()
         {
             InitializeComponent();
+
             // tao chuoi luu file hinh
-            string linkhinh = @"F:\xu_ly_anh\lena_color.png";
+            string linkhinh = @"D:\hoc_xla\lena_color.png";
             // tao bien chua hinh dc load
             Bitmap hinhgoc = new Bitmap(linkhinh);
             
