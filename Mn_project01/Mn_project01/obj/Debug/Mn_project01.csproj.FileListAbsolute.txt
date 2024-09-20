@@ -70,11 +70,9 @@ D:\hoc_xla\Mn_project01\mn_project01\bin\Debug\sv\ZedGraph.resources.dll
 D:\hoc_xla\Mn_project01\mn_project01\bin\Debug\tr\ZedGraph.resources.dll
 D:\hoc_xla\Mn_project01\mn_project01\bin\Debug\zh-cn\ZedGraph.resources.dll
 D:\hoc_xla\Mn_project01\mn_project01\bin\Debug\zh-tw\ZedGraph.resources.dll
-D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.csprojAssemblyReference.cache
 D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.Form1.resources
 D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.Properties.Resources.resources
 D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.csproj.GenerateResource.cache
-D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.csproj.CoreCompileInputs.cache
-D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.csproj.CopyComplete
 D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.exe
 D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.pdb
+D:\hoc_xla\Mn_project01\mn_project01\obj\Debug\mn_project01.csprojResolveAssemblyReference.cache

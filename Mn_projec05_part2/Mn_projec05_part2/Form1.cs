@@ -20,9 +20,9 @@ namespace Mn_projec05_part2
         {
             InitializeComponent();
 
-            string linKhinh = @"F:\hoc_xla\bird_small.jpg";
+            string hinh = @"D:\hoc_xla\bird_small.jpg";
 
-            Bitmap hinhgoc = new Bitmap(linkhinh);
+            Bitmap hinhgoc = new Bitmap(hinh);
 
             //hien thi
             picBox_hinhgoc.Image = hinhgoc;

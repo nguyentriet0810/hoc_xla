@@ -18,7 +18,7 @@ namespace Mn_project05
             InitializeComponent();
 
             // tao chuoi chua link hinh
-            string linkhinh = @"F:\hoc_xla\bird_small.jpg";
+            string linkhinh = @"D:\hoc_xla\bird_small.jpg";
 
             //tao bien chua hinh
             Bitmap hinhgoc = new Bitmap(linkhinh);

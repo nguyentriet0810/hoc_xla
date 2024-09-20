@@ -38,12 +38,12 @@ def TinhVectorTrungBinhMau(RGBimage):
             Bs = Bs + B
 
     ##tinh vector trung binh mau
-    a = ((Rs/Size), 
-         (Gs/Size), 
-         (Bs/Size))
+    vector = (  (Rs/Size), 
+                (Gs/Size), 
+                (Bs/Size))
     
     ##tra ve gia tri cua vector
-    return a
+    return vector
 
 ##ham phan doan anh mau
 ##chon gia tri nguong la 45

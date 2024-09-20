@@ -17,7 +17,7 @@ namespace Mn_project03
             InitializeComponent();
 
             // Tao chuoi chua link hinh
-            String linkhinh = @"F:\hoc_xla\lena_color.png";
+            String linkhinh = @"D:\hoc_xla\lena_color.png";
             // tao doi tuong bitmap la hinh can hien thi
             Bitmap hinhgoc = new Bitmap(linkhinh);
             //Hien thi hinh
