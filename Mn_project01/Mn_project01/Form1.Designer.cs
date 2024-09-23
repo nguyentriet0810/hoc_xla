@@ -28,111 +28,118 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox_hinhgoc = new System.Windows.Forms.PictureBox();
-            this.pictureBox_red = new System.Windows.Forms.PictureBox();
-            this.pictureBox_green = new System.Windows.Forms.PictureBox();
-            this.pictureBox_blue = new System.Windows.Forms.PictureBox();
-            this.hinhgoc = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_hinhgoc)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_red)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_green)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blue)).BeginInit();
+            this.picBox_hinhgoc = new System.Windows.Forms.PictureBox();
+            this.picBox_green = new System.Windows.Forms.PictureBox();
+            this.picBox_red = new System.Windows.Forms.PictureBox();
+            this.picBox_blue = new System.Windows.Forms.PictureBox();
+            this.lbl_hinhgoc = new System.Windows.Forms.Label();
+            this.lbl_red = new System.Windows.Forms.Label();
+            this.lbl_green = new System.Windows.Forms.Label();
+            this.lbl_blue = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_hinhgoc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_green)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_red)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_blue)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox_hinhgoc
+            // picBox_hinhgoc
             // 
-            this.pictureBox_hinhgoc.Location = new System.Drawing.Point(22, 56);
-            this.pictureBox_hinhgoc.Name = "pictureBox_hinhgoc";
-            this.pictureBox_hinhgoc.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox_hinhgoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_hinhgoc.TabIndex = 0;
-            this.pictureBox_hinhgoc.TabStop = false;
+            this.picBox_hinhgoc.Location = new System.Drawing.Point(12, 53);
+            this.picBox_hinhgoc.Name = "picBox_hinhgoc";
+            this.picBox_hinhgoc.Size = new System.Drawing.Size(256, 256);
+            this.picBox_hinhgoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_hinhgoc.TabIndex = 0;
+            this.picBox_hinhgoc.TabStop = false;
             // 
-            // pictureBox_red
+            // picBox_green
             // 
-            this.pictureBox_red.Location = new System.Drawing.Point(498, 56);
-            this.pictureBox_red.Name = "pictureBox_red";
-            this.pictureBox_red.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox_red.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_red.TabIndex = 1;
-            this.pictureBox_red.TabStop = false;
+            this.picBox_green.Location = new System.Drawing.Point(12, 345);
+            this.picBox_green.Name = "picBox_green";
+            this.picBox_green.Size = new System.Drawing.Size(256, 256);
+            this.picBox_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_green.TabIndex = 1;
+            this.picBox_green.TabStop = false;
             // 
-            // pictureBox_green
+            // picBox_red
             // 
-            this.pictureBox_green.Location = new System.Drawing.Point(22, 492);
-            this.pictureBox_green.Name = "pictureBox_green";
-            this.pictureBox_green.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox_green.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_green.TabIndex = 2;
-            this.pictureBox_green.TabStop = false;
+            this.picBox_red.Location = new System.Drawing.Point(286, 53);
+            this.picBox_red.Name = "picBox_red";
+            this.picBox_red.Size = new System.Drawing.Size(256, 256);
+            this.picBox_red.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_red.TabIndex = 2;
+            this.picBox_red.TabStop = false;
             // 
-            // pictureBox_blue
+            // picBox_blue
             // 
-            this.pictureBox_blue.Location = new System.Drawing.Point(498, 492);
-            this.pictureBox_blue.Name = "pictureBox_blue";
-            this.pictureBox_blue.Size = new System.Drawing.Size(400, 400);
-            this.pictureBox_blue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_blue.TabIndex = 3;
-            this.pictureBox_blue.TabStop = false;
+            this.picBox_blue.Location = new System.Drawing.Point(286, 345);
+            this.picBox_blue.Name = "picBox_blue";
+            this.picBox_blue.Size = new System.Drawing.Size(256, 256);
+            this.picBox_blue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_blue.TabIndex = 3;
+            this.picBox_blue.TabStop = false;
             // 
-            // hinhgoc
+            // lbl_hinhgoc
             // 
-            this.hinhgoc.AutoSize = true;
-            this.hinhgoc.Location = new System.Drawing.Point(19, 27);
-            this.hinhgoc.Name = "hinhgoc";
-            this.hinhgoc.Size = new System.Drawing.Size(145, 17);
-            this.hinhgoc.TabIndex = 4;
-            this.hinhgoc.Text = "Hinh Goc co gai Lena";
+            this.lbl_hinhgoc.AutoSize = true;
+            this.lbl_hinhgoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_hinhgoc.Location = new System.Drawing.Point(12, 33);
+            this.lbl_hinhgoc.Name = "lbl_hinhgoc";
+            this.lbl_hinhgoc.Size = new System.Drawing.Size(179, 20);
+            this.lbl_hinhgoc.TabIndex = 4;
+            this.lbl_hinhgoc.Text = "Hinh Goc Co Gai Lena";
             // 
-            // label1
+            // lbl_red
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(495, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 17);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Hinh Red";
+            this.lbl_red.AutoSize = true;
+            this.lbl_red.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_red.ForeColor = System.Drawing.Color.Red;
+            this.lbl_red.Location = new System.Drawing.Point(282, 33);
+            this.lbl_red.Name = "lbl_red";
+            this.lbl_red.Size = new System.Drawing.Size(122, 20);
+            this.lbl_red.TabIndex = 5;
+            this.lbl_red.Text = "Hinh Kenh Red";
             // 
-            // label2
+            // lbl_green
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 472);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 17);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Hinh Green";
+            this.lbl_green.AutoSize = true;
+            this.lbl_green.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_green.ForeColor = System.Drawing.Color.Lime;
+            this.lbl_green.Location = new System.Drawing.Point(12, 322);
+            this.lbl_green.Name = "lbl_green";
+            this.lbl_green.Size = new System.Drawing.Size(138, 20);
+            this.lbl_green.TabIndex = 6;
+            this.lbl_green.Text = "Hinh Kenh Green";
             // 
-            // label3
+            // lbl_blue
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(495, 472);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 17);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Hinh Blue";
+            this.lbl_blue.AutoSize = true;
+            this.lbl_blue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_blue.ForeColor = System.Drawing.Color.Blue;
+            this.lbl_blue.Location = new System.Drawing.Point(282, 322);
+            this.lbl_blue.Name = "lbl_blue";
+            this.lbl_blue.Size = new System.Drawing.Size(126, 20);
+            this.lbl_blue.TabIndex = 7;
+            this.lbl_blue.Text = "Hinh Kenh Blue";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 953);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.hinhgoc);
-            this.Controls.Add(this.pictureBox_blue);
-            this.Controls.Add(this.pictureBox_green);
-            this.Controls.Add(this.pictureBox_red);
-            this.Controls.Add(this.pictureBox_hinhgoc);
+            this.ClientSize = new System.Drawing.Size(714, 653);
+            this.Controls.Add(this.lbl_blue);
+            this.Controls.Add(this.lbl_green);
+            this.Controls.Add(this.lbl_red);
+            this.Controls.Add(this.lbl_hinhgoc);
+            this.Controls.Add(this.picBox_blue);
+            this.Controls.Add(this.picBox_red);
+            this.Controls.Add(this.picBox_green);
+            this.Controls.Add(this.picBox_hinhgoc);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_hinhgoc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_red)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_green)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_blue)).EndInit();
+            this.Text = "Tach Anh RGB";
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_hinhgoc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_green)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_red)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_blue)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,14 +147,14 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox_hinhgoc;
-        private System.Windows.Forms.PictureBox pictureBox_red;
-        private System.Windows.Forms.PictureBox pictureBox_green;
-        private System.Windows.Forms.PictureBox pictureBox_blue;
-        private System.Windows.Forms.Label hinhgoc;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox picBox_hinhgoc;
+        private System.Windows.Forms.PictureBox picBox_green;
+        private System.Windows.Forms.PictureBox picBox_red;
+        private System.Windows.Forms.PictureBox picBox_blue;
+        private System.Windows.Forms.Label lbl_hinhgoc;
+        private System.Windows.Forms.Label lbl_red;
+        private System.Windows.Forms.Label lbl_green;
+        private System.Windows.Forms.Label lbl_blue;
     }
 }
 

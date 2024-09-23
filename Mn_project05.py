@@ -86,6 +86,8 @@ def tinhHistogramRGB(RGBscale):
 
 ##Ham ve bieu do histogram dung matplotlib
 def BieudoHistogramGray(value):
+	
+	##tao kich thuoc
 	w = 5
 	h = 4
 	plt.figure('Bieu do Histogram anh muc xam', figsize=(((w, h))), dpi = 100)
@@ -124,14 +126,14 @@ def main():
 	imgPIL = Image.open(hinh)
 
 	GrayAverage = np.array(RGBtoGrayscale(imgPIL, 0))
-	GrayLightness = np.array(RGBtoGrayscale(imgPIL, 1))
-	GrayLuminance = np.array(RGBtoGrayscale(imgPIL, 2))
+	##GrayLightness = np.array(RGBtoGrayscale(imgPIL, 1))
+	##GrayLuminance = np.array(RGBtoGrayscale(imgPIL, 2))
 
 	## hien thi hinh
 	cv2.imshow('Hinh Goc RGB con chim nho', img)
 	cv2.imshow('Hinh Gray dung pp Average', GrayAverage)
-	cv2.imshow('Hinh Gray dung pp Lightness',GrayLightness)
-	cv2.imshow('Hinh Gary dung pp Luminance', GrayLuminance)
+	##cv2.imshow('Hinh Gray dung pp Lightness',GrayLightness)
+	##cv2.imshow('Hinh Gary dung pp Luminance', GrayLuminance)
 
 	BieudoHistogramGray(tinhHistogramGrayscale(RGBtoGrayscale(imgPIL, 0)))
 

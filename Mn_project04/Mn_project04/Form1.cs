@@ -27,7 +27,7 @@ namespace Mn_project04
             InitializeComponent();
 
             //Gan hinh goc  = link anh
-            hinhgoc = new Bitmap(@"F:\hoc_xla\lena_color.png");
+            hinhgoc = new Bitmap(@"D:\hoc_xla\lena_color.png");
 
             // hien thi anh
             picBox_anh_goc.Image = hinhgoc; 

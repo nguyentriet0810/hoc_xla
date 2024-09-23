@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 ##doc anh mau tu thu vien 
-img = cv2.imread('lena_color.png', cv2.IMREAD_COLOR)
+img = cv2.imread('C:/Users/23tri/Saved Games/Yu-Gi-Oh! GX Power of Chaos MOD/Mege/card/4027_1.bmp', cv2.IMREAD_COLOR)
 
 ## lay kich thuoc anh
 height = len(img[0])

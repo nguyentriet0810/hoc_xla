@@ -30,6 +30,7 @@ import numpy as np
 ## thu vien pillow ho tro
 from PIL import Image
 
+"""
 ##ham chuyen doi khong gian mau RGB sang CMYK dung opencv
 def RGBtoCMYKuseOpencv(image):
     ##lay kich thuoc anh
@@ -80,7 +81,7 @@ def RGBtoCMYKuseOpencv(image):
     
     ##tra ve gia tri CMYK
     return CMYK
-
+"""
 
 ##ham chuyen doi khong gian mau RGB sang CMYK dung Pillow
 def RGBtoCMYKusePillow(image):
@@ -124,19 +125,23 @@ def main():
     ##doc hinh dung thu vien PIL thay vi dung opencv
     imgPIL = Image.open(hinh)
 
-    ##lay anh ve
-    Cyan = RGBtoCMYKuseOpencv(img)[0]
-    Magenta = RGBtoCMYKuseOpencv(img)[1]
-    Yellow = RGBtoCMYKuseOpencv(img)[2]
-    Black = RGBtoCMYKuseOpencv(img)[3]
-
-    """"
-    ## chuyen anh PIL ve anh thuong de hien thi
-    Cyan = np.array(RGBtoCMYKusePillow(imgPIL)[0])
-    Magenta = np.array(RGBtoCMYKusePillow(imgPIL)[1])
-    Yellow = np.array(RGBtoCMYKusePillow(imgPIL)[2])
-    Black = np.array(RGBtoCMYKusePillow(imgPIL)[3])
     """
+    ##lay anh ve
+    CMYK = RGBtoCMYKuseOpencv(img)
+    Cyan = CMYK[0]
+    Magenta = CMYK[1]
+    Yellow = CMYK[2]
+    Black = CMYK[3]
+    """
+    
+    #""""
+    ## chuyen anh PIL ve anh thuong de hien thi
+    CMYK = RGBtoCMYKusePillow(imgPIL)
+    Cyan = np.array(CMYK[0])
+    Magenta = np.array(CMYK[1])
+    Yellow = np.array(CMYK[2])
+    Black = np.array(CMYK[3])
+    #"""
 
     ## hien thi hinh
     cv2.imshow('Hinh Goc RGB co gai lena', img)
