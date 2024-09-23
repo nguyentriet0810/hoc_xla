@@ -30,6 +30,7 @@ import numpy as np
 ## thu vien pillow ho tro
 from PIL import Image
 
+"""
 ##ham chuyen doi khong gian mau RGB sang CMYK dung opencv
 def RGBtoCMYKuseOpencv(image):
     ##lay kich thuoc anh
@@ -80,7 +81,7 @@ def RGBtoCMYKuseOpencv(image):
     
     ##tra ve gia tri CMYK
     return CMYK
-
+"""
 
 ##ham chuyen doi khong gian mau RGB sang CMYK dung Pillow
 def RGBtoCMYKusePillow(image):
