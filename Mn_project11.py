@@ -176,7 +176,7 @@ def main():
 
     ## tao link cho hinh can xu ly
     hinh = r'lena_color.png'
-	
+	#hinh = r'bird_small.jpg'
     ## doc anh dung thu vien dung opencv
     img = cv2.imread(hinh, cv2.IMREAD_COLOR)
 
@@ -184,24 +184,23 @@ def main():
     imgPIL = Image.open(hinh)
 
     ##lay anh ve va doi sang anh thuong
-    """
+
     mask3x3 = ColorImageSmoothingMask3x3(imgPIL)
     mask3x3 = np.array(mask3x3)
     mask5x5 = ColorImageSmoothingMask5x5(imgPIL)
     mask5x5 = np.array(mask5x5)
     mask7x7 = ColorImageSmoothingMask7x7(imgPIL)
     mask7x7 = np.array(mask7x7)
-    """
+
     mask9x9 = ColorImageSmoothingMask9x9(imgPIL)
     mask9x9 = np.array(mask9x9)
 
     ## hien thi hinh
     cv2.imshow('Hinh Goc RGB co gai Lena', img)
-    """
+    
     cv2.imshow('Hinh lam muot mask 3x3', mask3x3)
     cv2.imshow('Hinh lam muot mask 5x5', mask5x5)
     cv2.imshow('Hinh lam muot mask 7x7', mask7x7)
-    """
     cv2.imshow('Hinh lam muot mask 9x9', mask9x9)
 
 	## thoat hinh bang cach nhan phim bat ki

@@ -22,9 +22,6 @@ namespace Mn_project07
         {
             InitializeComponent();
 
-            //tao link den hinh anh
-            string linkhinh = @"D:\hoc_xla\lena_color.png";
-
             //tao bien chua anh
             hinhgoc = new Bitmap(linkhinh);
 
