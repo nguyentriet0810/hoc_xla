@@ -174,9 +174,10 @@
             this.lbl_I.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_I.Location = new System.Drawing.Point(588, 315);
             this.lbl_I.Name = "lbl_I";
-            this.lbl_I.Size = new System.Drawing.Size(111, 20);
+            this.lbl_I.Size = new System.Drawing.Size(91, 20);
             this.lbl_I.TabIndex = 21;
-            this.lbl_I.Text = "Hinh Intensity";
+            this.lbl_I.Text = "Hinh Value";
+            this.lbl_I.Click += new System.EventHandler(this.lbl_I_Click);
             // 
             // lbl_HSI
             // 

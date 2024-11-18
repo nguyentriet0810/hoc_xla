@@ -58,7 +58,7 @@ def RGBtoHSIusePillow(image):
             R, G, B = image.getpixel((x,y))
 
             ## so sanh va lay gia tri min R G B
-            K = min(R, G, B)
+            K = min(R, G, B) # Dung cho cong thuc tinh S
 
             ##tinh toan theo cong thuc
             sum = R + G + B

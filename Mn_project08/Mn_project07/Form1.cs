@@ -124,5 +124,10 @@ namespace Mn_project07
             picBox_I.Image = hsv[4];
             picBox_HSI.Image = hsv[4];
         }
+
+        private void lbl_I_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

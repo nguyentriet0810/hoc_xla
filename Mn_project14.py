@@ -151,7 +151,7 @@ def main():
     Grascale = RGBtoGrayscale(imgPIL, 0) 
 
     ##doc ve anh da phan doan mau
-    NEWImage = NhanDangDuongBien(Grascale, "P", 130)
+    NEWImage = NhanDangDuongBien(Grascale, "S", 130)
 
     ##chuyen ve anh thuong
     Grascale = np.array(Grascale)

@@ -33,7 +33,7 @@ def RGBtoYCbCrusePillow(image):
     width = image.size[0]
     height = image.size[1]
     
-    ##tao tuple gom 4 phan tu chua anh Cyan, Magenta, Yellow, Black co cung mode va kich thuoc voi anh goc
+    #
     YCbCr = (Image.new(image.mode, image.size),
             Image.new(image.mode, image.size), 
             Image.new(image.mode, image.size),
