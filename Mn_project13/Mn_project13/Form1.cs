@@ -43,7 +43,7 @@ namespace Mn_project13
             double vectorR, vectorG, vectorB;
 
             //lay kich thuoc vung mau can quet
-            double Size = (500 - 400) * (150 - 80);
+            double Size = (500 - 400 + 1) * (150 - 80 + 1);
 
             double Rs = 0, Gs = 0, Bs = 0;
 
