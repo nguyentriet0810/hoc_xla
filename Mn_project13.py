@@ -17,7 +17,7 @@ import math
 def TinhVectorTrungBinhMau(RGBimage):
 
     ##tinh kich thuoc vung mau
-    Size = (500-400)*(150-80)
+    Size = (500-400+1)*(150-80+1)
 
     Rs = np.uint32(0)
     Gs = np.uint32(0)
